@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:padding="30dp"
+    app:cardElevation="8dp"
+    android:layout_marginBottom="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/rclinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/rc_vehicle_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/endeavour" />
+
+
+        <TextView
+            android:id="@+id/rc_vehicle_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="ENDEAVOUR"
+            android:textColor="#F40F0F"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/rc_vownership"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Single"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/rc_myear"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="2021"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/rc_Vtype"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:text="HATCHBACK"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/rc_vVarient"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:text="w4"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/rc_vtransmission"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:text="Manual"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/rc_vcolour"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:text="BLACK"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/rc_vkm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:text="15000KM"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/rc_Vfuel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_square_icon"
+                android:text="PETROL"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="right"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/rc_dateTime"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="11-Apr-2023"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
